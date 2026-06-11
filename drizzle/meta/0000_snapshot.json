@@ -1,0 +1,261 @@
+{
+  "id": "fcdde3d0-15ea-46a7-8fd7-c400b5383134",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.survey_responses": {
+      "name": "survey_responses",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "email": {
+          "name": "email",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "phone": {
+          "name": "phone",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "law_firm": {
+          "name": "law_firm",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "position": {
+          "name": "position",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "years_of_practice": {
+          "name": "years_of_practice",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "firm_size": {
+          "name": "firm_size",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "practice_areas": {
+          "name": "practice_areas",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "current_tools": {
+          "name": "current_tools",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "document_storage": {
+          "name": "document_storage",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "workflow_description": {
+          "name": "workflow_description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "challenge_documents": {
+          "name": "challenge_documents",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "challenge_deadlines": {
+          "name": "challenge_deadlines",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "challenge_client_communication": {
+          "name": "challenge_client_communication",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "challenge_case_tracking": {
+          "name": "challenge_case_tracking",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "challenge_compliance_tracking": {
+          "name": "challenge_compliance_tracking",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "challenge_billing": {
+          "name": "challenge_billing",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "biggest_challenge": {
+          "name": "biggest_challenge",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "feature_matter_management": {
+          "name": "feature_matter_management",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "feature_document_management": {
+          "name": "feature_document_management",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "feature_reminders": {
+          "name": "feature_reminders",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "feature_client_portal": {
+          "name": "feature_client_portal",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "feature_task_management": {
+          "name": "feature_task_management",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "feature_billing": {
+          "name": "feature_billing",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "feature_compliance_tracking": {
+          "name": "feature_compliance_tracking",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "feature_ai_search": {
+          "name": "feature_ai_search",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "litigation_percentage": {
+          "name": "litigation_percentage",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "corporate_percentage": {
+          "name": "corporate_percentage",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "compliance_percentage": {
+          "name": "compliance_percentage",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tax_percentage": {
+          "name": "tax_percentage",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "company_secretarial_percentage": {
+          "name": "company_secretarial_percentage",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "interested_in_pilot": {
+          "name": "interested_in_pilot",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "willing_to_pay": {
+          "name": "willing_to_pay",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "contact_for_prototype": {
+          "name": "contact_for_prototype",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic_wand_problem": {
+          "name": "magic_wand_problem",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "additional_comments": {
+          "name": "additional_comments",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
